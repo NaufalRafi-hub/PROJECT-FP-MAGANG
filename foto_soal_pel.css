@@ -158,11 +158,38 @@
     text-align: center;
     margin-top: 14px;
   }
+  .wrap-gunakan {
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* text-align: center; */
+    margin-left: 170px;
+  }
+  @media only screen and (max-width: 767px) {
+    .wrap-gunakan {
+      /* margin-left: 0px; */
+      margin-left: 10%;
+    }
+  }
+  @media only screen and (max-width: 516px) {
+    .wrap-gunakan {
+      margin-left: 0px;
+      /* margin-left: 8%; */
+    }
+  }
   .gunakan {
     color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    /* margin-top: 14px; */
   }
   .lain {
     color: #0070ba;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    max-width: 400px;
+    /* text-align: center; */
+    /* margin-top: 14px; */
   }
   .white-wrap {
     background: #FFFFFF;
