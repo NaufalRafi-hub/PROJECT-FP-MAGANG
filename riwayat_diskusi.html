@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="r_d.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <img class="mr-4 humb"src="img/iconhumb.png" alt="humburger" width="24" height="18">
+      <img src="img/Logo Aku Pintar.png" alt="logo" width="150" height="30">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse wrap-items" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item my-auto navz">
+            <a class="nav-link" href="#">BERANDA<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item my-auto navz">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item my-auto navz">
+            <a class="nav-link" href="#">LAYANAN</a>
+          </li>
+          <li class="nav-item my-auto navz">
+            <a class="nav-link" href="#">TENTANG KAMI</a>
+          </li>
+          <li class="nav-item my-auto navz">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item my-auto ml-lg-2">
+            <!-- <a class="nav-link" href="#">Follow Us</a> -->
+            <a class="nav-link btn btn-primary button-follow" href="/" role="button">Follow Us</a>    
+          </li>
+          <li class="nav-item my-auto ml-lg-5">
+            <img class="mt-3" src="img/iconsearch.png" alt="search" width="20" height="20">
+          </li>     
+          <li class="nav-item my-auto ml-lg-3">
+            <img class="mt-3" src="img/iconnotif.png" alt="notif" width="19" height="21">
+          </li>
+          <li class="nav-item my-auto ml-lg-5">
+            <img class="mt-3" src="img/userprofile.png" alt="userprofile" width = "50" height="50">
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <section>
+      <div class="container">
+        <div class="head-diskusi">
+          <a class="btn btn-primary button-kembali" href="/" role="button">kembali</a>          
+          <h1>Riwayat Diskusi</h1>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <ul class="nav mb-3 tabs-body" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="pills-home-tab"
+              data-toggle="pill"
+              href="#pills-semua"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+              >Semua Diskusi</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="pills-profile-tab"
+              data-toggle="pill"
+              href="#pills-diskusi"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+              >Pesan Berbintang</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-semua"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div class="body-riwayat" style="overflow-y: scroll; height: 450px">
+              <div class="row wrap-content">
+                <div class="col-auto">
+                  <img
+                    src="img/iconmatematika.png"
+                    alt="matematika"
+                    height="130px"
+                    width="130px"
+                  />
+                </div>
+                <div class="col align-self-center content-body">
+                  <h3>Matematika</h3>
+                  <p>
+                    Gimana, Sobat? Apakah sudah terjawab pertanyaan? Semoga
+                    membantu ya kak
+                  </p>
+                </div>
+              </div>
+              <div class="row wrap-content">
+                <div class="col-auto">
+                  <img
+                    src="img/iconbindo.png"
+                    alt="bindo"
+                    height="130px"
+                    width="130px"
+                  />
+                </div>
+                <div class="col align-self-center content-body">
+                  <h3>Bahasa Indonesia</h3>
+                  <p>
+                    Untuk pertanyaan ini cara cepat nya ada gak ya kak? Saya
+                    masih sangat bingung kak untuk meentukan kalimat u....
+                  </p>
+                </div>
+              </div>
+              <div class="row wrap-content">
+                <div class="col-auto">
+                  <img
+                    src="img/iconsosiologi.png"
+                    alt="sosiologi"
+                    height="130px"
+                    width="130px"
+                  />
+                </div>
+                <div class="col align-self-center content-body">
+                  <h3>Sosiologi</h3>
+                  <p>Sesi chat kamu telah berakhir pada 15:29</p>
+                </div>
+              </div>
+              <div class="row wrap-content">
+                <div class="col-auto">
+                  <img
+                    src="img/icongeografi.png"
+                    alt="geo"
+                    height="130px"
+                    width="130px"
+                  />
+                </div>
+                <div class="col align-self-center content-body">
+                  <h3>Geografi</h3>
+                  <p>Sesi chat kamu telah berakhir pada 6 September 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-diskusi"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+            <div class="body-riwayat" style="overflow-y: scroll; height: 450px">
+              <div class="bubble-1">
+                <div class="row">
+                  <div class="col-auto">
+                    <img
+                      src="img/iconmatematika.png"
+                      alt="matematika"
+                      height="70px"
+                      width="70px"
+                    />
+                  </div>
+                  <div class="col align-self-center content-body">
+                    <h3>Mentor Matematika</h3>
+                  </div>
+                </div>
+                <div class="row-msg">
+                  <div class="card-msg">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining essentially unchanged. It was popularised in the
+                      1960s with the release of Letraset sheets containing Lorem
+                      Ipsum passages, and more recently....
+                    </p>
+                  </div>
+                  <img
+                    src="img/iconstar-yellow.png"
+                    alt="staryellow"
+                    width="30"
+                    height="27"
+                    style="margin-top: auto; margin-bottom: 0"
+                  />
+                </div>
+              </div>
+              <div class="bubble-1">
+                <div class="row">
+                  <div
+                    class="col align-self-center content-body"
+                    style="text-align: right"
+                  >
+                    <h3>Anda</h3>
+                    <p>Dalam pelajaran "Geografi"</p>
+                  </div>
+                  <div class="col-auto">
+                    <img
+                      src="img/userprofile.png"
+                      alt="prfoile"
+                      height="70px"
+                      width="70px"
+                    />
+                  </div>
+                </div>
+                <div class="row-msg-2">
+                    <img
+                    src="img/iconstar-yellow.png"
+                    alt="staryellow"
+                    width="30"
+                    height="27"
+                    style="margin-top: auto; margin-bottom: 0; margin-left: auto; margin-right: 0;"
+                  />
+                  <div class="card-msg-2">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="about">
+            <img src="img/logo_ap.png" alt="logo" width="150" />
+            <h2>
+              Aku Pintar adalah perusahaan teknologi informasi yang bergerak
+              dibidang pendidikan, nama perusahaan kami adalah PT. Aku Pintar
+              Indonesia
+            </h2>
+          </div>
+          <div class="kontak">
+            <h1><b>Kontak Kami</b></h1>
+            <h2>+62 812 2000453</h2>
+            <h2>info@akupintar.id</h2>
+            <h3>
+              Grand Slipi Tower Lt. 42<br />
+              Jl. S. Parman Kav 22-24<br />
+              Jakarta Barat
+            </h3>
+          </div>
+          <div class="layanan">
+            <h1><b>Layanan</b></h1>
+            <h2>Universitas</h2>
+            <h2>Siswa</h2>
+          </div>
+          <div class="informasi">
+            <h1><b>Informasi</b></h1>
+            <h2>Kebijakan Privasi</h2>
+            <h2>Syarat & Ketentuan</h2>
+            <h2>Karir</h2>
+          </div>
+          <div class="ikuti">
+            <h1><b>Ikuti Kami</b></h1>
+            <div class="icons-ikuti">
+              <img src="img/group-22.png" width="20px" />
+              <img src="img/group-37.png" width="20px" />
+              <img src="img/group-40.png" width="20px" />
+              <img src="img/group-9.png" width="20px" />
+              <img src="img/group-24.png" width="20px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-2">
+      <div class="container copy">
+        <h2>© 2020 Aku Pintar. All Rights Reserved</h2>
+      </div>
+    </section>
+  </body>
+</html>
