@@ -134,13 +134,6 @@
   .foto-area a:hover {
     color: white;
   }
-  .foto-area {
-    background-image: url(/img/Group\ 198.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 48% center;
-
-  }
   .blue {
     /* background: #F96464; */
     border-radius: 30px;
