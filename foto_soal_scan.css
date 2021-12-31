@@ -125,8 +125,11 @@
     width: 100%;
     border-radius: 20px 0px 0px 20px;
     display: flex;
-    align-items:center;
+    /* align-items:center; */
     
+  }
+  .ulang-div {
+    margin-top: 14px;
   }
   .foto-area a {
     color: white;
