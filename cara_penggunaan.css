@@ -71,6 +71,7 @@
   display: flex;
   flex-direction: column;
     gap: 10px;
+    height: 870px;
 }
 .card-cara h1 {
     margin-top: 20px;
@@ -91,6 +92,12 @@
     font-size: 18px;
     font-weight: normal;
     color: #424a4c;
+}
+@media only screen and (max-width: 767px) {
+  .card-cara {
+    /* margin-left: 0px; */
+    margin-bottom: 30px;
+  }
 }
 .footer {
   margin-top: 50px;
